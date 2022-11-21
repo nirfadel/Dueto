@@ -42,6 +42,7 @@ export class CountDownClockComponent implements OnInit {
     if(this.timerNumber === 0)
     {
       this.startTimer?.unsubscribe();
+      sessionStorage.removeItem("timerNumber");
       alert("You missed the last rocket to mars!");
     }
 
@@ -81,6 +82,8 @@ export class CountDownClockComponent implements OnInit {
   resetTimer()
   {
      this.timerNumber = 5 * 60 * 1000;
+     this.minutes = 5;
+     this.seconds = 0;
      sessionStorage.removeItem("timerNumber");
      this.saveToSession(true);
   }
