@@ -1,0 +1,17 @@
+.rocket{
+    animation: rotation 1s infinite linear;
+    margin-left: auto;
+    margin-right: auto;
+    width: 276px;
+    display: block;
+    height: 278px;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(10deg);
+    }
+    to {
+      transform: rotate(30deg);
+    }
+  }

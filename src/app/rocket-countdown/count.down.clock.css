@@ -1,0 +1,58 @@
+.box1 {
+    background-color: #000;
+    color: #fff;
+    opacity: .5;
+}
+
+.box2 {
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+}
+.timer
+{
+    color: #fff;
+}
+.timer .minutes
+{
+    background-color: #000;
+    text-align: center;
+    font-size: 28px;
+    width: 6vh;
+    height: 90px;
+    opacity: 0.3;
+    border-radius: 20px;
+    display: table-cell;
+    vertical-align: middle;
+   
+}
+.timer .seconds
+{
+    background-color: #000;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 28px;
+    width: 6vh;
+    height: 90px;
+    opacity: 0.3;
+    border-radius: 20px;
+}
+
+.resetTimer
+{
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+   
+}
+.countdown-text
+{
+    font-size: 20px;
+    color: white;
+}
+.dots{
+    width: 3vh;
+    text-align: center;
+    min-height: 90px;
+    font-weight: bold;
+}
